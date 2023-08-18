@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""
-wordA function that computes the square
-value of all integers of a matrix.
-"""
 def square_matrix_simple(matrix=[]):
     new_matrix = []
-    for col in matrix:
-        result = list(lambda x**2, col)
-        new_matrix.append(result)
+    for row in matrix:
+        new_row = list([x**2 for x in row])
+        new_matrix.append(new_row)
     return(new_matrix)
+
+'''
+return[[n**2 for n in row] for row in matrix]
+'''
