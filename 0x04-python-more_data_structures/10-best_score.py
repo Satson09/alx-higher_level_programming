@@ -5,5 +5,13 @@ def best_score(a_dictionary):
     """
     if not a_dictionary:
         return(none)
-
-    return (max(a_dictionary, key=a_dictionary.get))
+    one_loop = True
+    for people in a_dictionary:
+        if one_loop:
+            best = people
+            score = a_dictionary[people]
+            one_loop = False
+        if a_dictionary[people] > score:
+             score = a_dictionary[people]
+             best = people
+        return(best)
