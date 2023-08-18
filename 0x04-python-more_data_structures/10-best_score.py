@@ -1,10 +1,11 @@
 #!/usr/bin/python3
+
 def best_score(a_dictionary):
     """
     A function that returns a key with the biggest integer value.
     """
-    if not a_dictionary:
-        return(none)
+        if a_dictionary is None or len(a_dictionary) is 0:
+        return none
     one_loop = True
     for people in a_dictionary:
         if one_loop:
