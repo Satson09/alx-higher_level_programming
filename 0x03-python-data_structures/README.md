@@ -13,9 +13,9 @@ Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
 Resources
 Read or watch:
 
-3.1.3. Lists
-Data structures (until 5.3. Tuples and Sequences included)
-Learn to Program 6 : Lists
+3.1.3. Lists : https://docs.python.org/3/tutorial/introduction.html#lists
+Data structures (until 5.3. Tuples and Sequences included) : https://docs.python.org/3/tutorial/datastructures.html
+Learn to Program 6 : Lists : https://www.youtube.com/watch?v=A1HUzrvS-Pw
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
